@@ -714,7 +714,7 @@ ul.top-info-box {
 ul.top-info-box li {
    position: relative;
    float: left;
-   margin-left: 40px;
+   margin-left: 30px;
 }
 
 ul.top-info-box li:first-child{
@@ -3930,3 +3930,9 @@ label{
 
 
 
+.porduct-inner {
+   border: 1px solid #eee;
+   padding: 50px 0;
+   background: #eee;
+   border-radius: 5px;
+}
