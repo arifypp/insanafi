@@ -357,7 +357,14 @@
 
 	<!-- Template custom -->
 	<script type="text/javascript" src="js/custom.js"></script>
-	
+	<script>
+		// After page load scroll to #product_section
+		$(window).on('load', function() {
+			$('html, body').animate({
+				scrollTop: $('.our-product-wrapper').offset().top
+			}, 1000);
+		});
+	</script>
 	</div><!-- Body inner end -->
 </body>
 </html>
